@@ -1,4 +1,5 @@
 # todo_list_client
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95826dc0-6fc0-4507-998a-94c974896e52/deploy-status)](https://app.netlify.com/sites/modest-bassi-561e75/deploys)
 
 ## Project setup
 ```
