@@ -18,7 +18,9 @@ export default {
     }
   },
   mounted() {
-    axios.get(process.env.VUE_APP_BASE_API + "users").then(response => (this.info = response))
+    axios.get(process.env.VUE_APP_BASE_API + "users", {
+      headers: { "Authorization": "Token" + process.env.VUE_APP_API_TOKEN }
+    }).then(response => (this.info = response))
   }
 }
 </script>
